@@ -1,0 +1,9 @@
+POST http://localhost:4000/app/carDetails
+Content-Type: application/json
+
+{
+    "manufacturer": "KIA",
+    "carName": "Seltos",
+    "carType": "Petrol",
+    "color": "Black"
+}

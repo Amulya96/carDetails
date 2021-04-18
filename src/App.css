@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.root {
+  flex-grow: 1;
+  background-color: #fff;
+  height: "100vh";
+  overflow: "hidden";
+  justify-content: center;
+  display: flex;
+}
+
+.header {
+  margin: 10px;
+  text-align: center;
+}
+
+.data {
+  padding: 10px;
+}
+
+.paperRoot {
+  border: 1px solid #dee0e3;
+  margin: 50px;
+  padding: 20px;
+}
+
+.addBtn {
+  float: right;
+}
